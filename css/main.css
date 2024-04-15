@@ -1,0 +1,62 @@
+*{
+padding: 0px;
+margin: 0px;
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    gap: 1rem;
+    padding-right: 1rem;
+    min-height: 2rem;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: rgb(177, 177, 177);
+}
+
+a {
+    text-decoration: none;
+}
+
+nav a:link, nav a:visited{
+    color: rgb(51, 51, 51);
+}
+
+nav a:hover, nav a:active{
+    color: rgb(214, 214, 214);
+}
+
+/* specific styles start */
+
+h1{
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 1rem;
+}
+#aboutMe{
+    color: rgb(255, 139, 139);
+}
+
+img{
+    height: 350px;
+    width: 250px;
+}
+
+#indexImg{
+    height: 350px;
+    width: 450px;
+}
+
+#bodyContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    max-width: 65vw;
+    margin: 2rem auto;
+    gap: 1rem;
+}
